@@ -1,0 +1,34 @@
+{
+  "name": "cdnkit.js-server",
+  "version": "1.0.0",
+  "description": "a sock server for cdnkit.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test",
+    "start": "node bin/server --debug 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/askdaddy/cdnkit.js-server.git"
+  },
+  "keywords": [
+    "socket",
+    "server"
+  ],
+  "author": "Seven",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/askdaddy/cdnkit.js-server/issues"
+  },
+  "homepage": "https://github.com/askdaddy/cdnkit.js-server#readme",
+  "dependencies": {
+    "express": "^4.9.8",
+    "optimist": "~0.6.1",
+    "ws": "~0.4.25"
+  },
+  "devDependencies": {
+    "expect.js": "*",
+    "sinon": "*",
+    "mocha": "*"
+  }
+}
